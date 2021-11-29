@@ -1,0 +1,49 @@
+.delete img {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+
+.delete img:hover {
+  transform: rotateZ(0);
+}
+
+.task {
+    width: 56%;
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.text {
+  display: none;
+  width: 226px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+  flex-grow: 1;
+}
+
+.text:focus {
+  color: #333;
+}
+
+.edit-mode_input{
+  display: inline-block;
+  width: 224px;
+}
+
+.edit-mode_label {
+  display: none;
+}
+
+.compl-tasks .task {
+    text-decoration: line-through;
+    color: #888;
+}

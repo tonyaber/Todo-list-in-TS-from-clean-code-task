@@ -1,0 +1,21 @@
+.header {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+}
+
+.header img {
+  width: 100%;
+}
+
+.more-inf {
+  font-family: fantasy, cursive;
+}
+
+@media (max-width:768px) {
+
+  .header { 
+    text-align: center;
+  }
+}
